@@ -763,7 +763,7 @@ footer .container p{
 
 }
 
-@media screen and (max-width: 648px){
+@media only screen and (max-width: 600px){
 
     .left{
         width: 100%;
