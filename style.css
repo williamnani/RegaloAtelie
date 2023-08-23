@@ -753,12 +753,18 @@ footer .container p{
     }
 
     footer .container{
-        justify-content: space-evenly;
-        flex-direction: column;
+        margin-top: 300px;
+        justify-content:center;
+        flex-direction:column;
         height: 150px;
+        
+  
     }
     footer .container p{
-        margin-top: 20px;
+        margin-top: 10px;
+        justify-content: end;
+        align-items: center;
+      margin-right: 0px;
     }
 
 }
@@ -833,24 +839,32 @@ footer .container p{
 
     #Contact .content {
         flex-direction: column;
+        display: block;
+        justify-content: center;
+        padding-top: 60px;
+        
     }
 
     #Contact .container .left{
         height: 38vh;
+        display: flex;
+        margin-top: 150px;
     }
 
     #Contact .container .right{
         height: 38vh;
+         display: flex;
+        margin-top: 150px;
     }
 
     #Contact .container .left .box{
         width: 80%;
-        height: 35vh;
+        height: 40vh;
     }
 
     #Contact .container .right .box{
         width: 80%;
-        height: 35vh;
+        height: 40vh;
     }
 
     #Contact .container .left .box h1{
@@ -879,12 +893,13 @@ footer .container p{
 
     #Contact .container .right .box{
         width: 80%;
-        height: 35vh;
+        height: 40vh;
         justify-content: flex-start;
     }
 
     #Contact .container .right .box h1{
         font-size: 18px;
+        margin-top: -15%;
     }
 
     #Contact .container .right .box .icons{
@@ -894,10 +909,16 @@ footer .container p{
 
     #Contact .container .right .box .icons i {
         font-size: 22px;
+        padding:30px ;
+        margin-top: -15px;
+        align-items: center;
     }
 
     #Contact .container .right .box .text{
         height: 150px;
+        margin-top: -20px;
+        margin-right: 20px;
+        
     }
 
     #Contact .container .right .box .text p {
